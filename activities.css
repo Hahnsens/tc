@@ -1,0 +1,52 @@
+.container img{
+	width:80%;
+	
+
+}
+
+#t{
+	font-size: 5em;
+	font-family:STLiti ;
+	margin-top: 2.5%;
+	text-align: center;
+	
+}
+
+body{
+	
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background: rgba(76, 175, 80, 0.3);
+
+}
+
+
+
+
+
+#bread_crum li{
+	float: left;
+	list-style: none;
+}
+
+#bread_crum ol{
+	float: left;
+	list-style: none;
+}
+
+@media only screen and (max-width: 1000px)
+ {
+    #t{
+
+        margin-top:10%;
+        font-size: 1em;
+
+	
+    }
+    .container{
+    	width:95%;
+    	height:auto;
+    }
+
+
+}

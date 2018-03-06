@@ -1,0 +1,54 @@
+.container{
+	width: 50%;
+	height:auto;
+
+
+}
+#t{
+	font-size: 5em;
+	margin-top:4%;
+	font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+	
+
+}
+
+@media only screen and (max-width: 1000px)
+ {
+    #t{
+
+        margin-top:11%;
+        font-size: 3em;
+
+	
+    }
+    .container{
+    	width:95%;
+    	height:auto;
+    }
+}
+
+
+body{
+	
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background: rgba(76, 175, 80, 0.3);
+
+}
+
+
+
+
+
+#bread_crum li{
+	float: left;
+	list-style: none;
+}
+
+#bread_crum ol{
+	float: left;
+	list-style: none;
+}
+img{
+	width:100%;
+}
